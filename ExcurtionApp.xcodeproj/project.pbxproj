@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD25B7511D1D574800F5D5FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD25B7501D1D574800F5D5FE /* AppDelegate.swift */; };
+		FD25B7531D1D574800F5D5FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD25B7521D1D574800F5D5FE /* ViewController.swift */; };
+		FD25B7561D1D574800F5D5FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD25B7541D1D574800F5D5FE /* Main.storyboard */; };
+		FD25B7591D1D574800F5D5FE /* ExcurtionApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD25B7571D1D574800F5D5FE /* ExcurtionApp.xcdatamodeld */; };
+		FD25B75B1D1D574800F5D5FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD25B75A1D1D574800F5D5FE /* Assets.xcassets */; };
+		FD25B75E1D1D574800F5D5FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD25B75C1D1D574800F5D5FE /* LaunchScreen.storyboard */; };
+		FD25B7691D1D574800F5D5FE /* ExcurtionAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD25B7681D1D574800F5D5FE /* ExcurtionAppTests.swift */; };
+		FD25B7741D1D574800F5D5FE /* ExcurtionAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD25B7731D1D574800F5D5FE /* ExcurtionAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD25B7651D1D574800F5D5FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD25B7451D1D574800F5D5FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD25B74C1D1D574800F5D5FE;
+			remoteInfo = ExcurtionApp;
+		};
+		FD25B7701D1D574800F5D5FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD25B7451D1D574800F5D5FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD25B74C1D1D574800F5D5FE;
+			remoteInfo = ExcurtionApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD25B74D1D1D574800F5D5FE /* ExcurtionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExcurtionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD25B7501D1D574800F5D5FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD25B7521D1D574800F5D5FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD25B7551D1D574800F5D5FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD25B7581D1D574800F5D5FE /* ExcurtionApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExcurtionApp.xcdatamodel; sourceTree = "<group>"; };
+		FD25B75A1D1D574800F5D5FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD25B75D1D1D574800F5D5FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD25B75F1D1D574800F5D5FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD25B7641D1D574800F5D5FE /* ExcurtionAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExcurtionAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD25B7681D1D574800F5D5FE /* ExcurtionAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcurtionAppTests.swift; sourceTree = "<group>"; };
+		FD25B76A1D1D574800F5D5FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD25B76F1D1D574800F5D5FE /* ExcurtionAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExcurtionAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD25B7731D1D574800F5D5FE /* ExcurtionAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcurtionAppUITests.swift; sourceTree = "<group>"; };
+		FD25B7751D1D574800F5D5FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD25B74A1D1D574800F5D5FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD25B7611D1D574800F5D5FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD25B76C1D1D574800F5D5FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD25B7441D1D574800F5D5FE = {
+			isa = PBXGroup;
+			children = (
+				FD25B74F1D1D574800F5D5FE /* ExcurtionApp */,
+				FD25B7671D1D574800F5D5FE /* ExcurtionAppTests */,
+				FD25B7721D1D574800F5D5FE /* ExcurtionAppUITests */,
+				FD25B74E1D1D574800F5D5FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD25B74E1D1D574800F5D5FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD25B74D1D1D574800F5D5FE /* ExcurtionApp.app */,
+				FD25B7641D1D574800F5D5FE /* ExcurtionAppTests.xctest */,
+				FD25B76F1D1D574800F5D5FE /* ExcurtionAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD25B74F1D1D574800F5D5FE /* ExcurtionApp */ = {
+			isa = PBXGroup;
+			children = (
+				FD25B7501D1D574800F5D5FE /* AppDelegate.swift */,
+				FD25B7521D1D574800F5D5FE /* ViewController.swift */,
+				FD25B7541D1D574800F5D5FE /* Main.storyboard */,
+				FD25B75A1D1D574800F5D5FE /* Assets.xcassets */,
+				FD25B75C1D1D574800F5D5FE /* LaunchScreen.storyboard */,
+				FD25B75F1D1D574800F5D5FE /* Info.plist */,
+				FD25B7571D1D574800F5D5FE /* ExcurtionApp.xcdatamodeld */,
+			);
+			path = ExcurtionApp;
+			sourceTree = "<group>";
+		};
+		FD25B7671D1D574800F5D5FE /* ExcurtionAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD25B7681D1D574800F5D5FE /* ExcurtionAppTests.swift */,
+				FD25B76A1D1D574800F5D5FE /* Info.plist */,
+			);
+			path = ExcurtionAppTests;
+			sourceTree = "<group>";
+		};
+		FD25B7721D1D574800F5D5FE /* ExcurtionAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD25B7731D1D574800F5D5FE /* ExcurtionAppUITests.swift */,
+				FD25B7751D1D574800F5D5FE /* Info.plist */,
+			);
+			path = ExcurtionAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD25B74C1D1D574800F5D5FE /* ExcurtionApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD25B7781D1D574800F5D5FE /* Build configuration list for PBXNativeTarget "ExcurtionApp" */;
+			buildPhases = (
+				FD25B7491D1D574800F5D5FE /* Sources */,
+				FD25B74A1D1D574800F5D5FE /* Frameworks */,
+				FD25B74B1D1D574800F5D5FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExcurtionApp;
+			productName = ExcurtionApp;
+			productReference = FD25B74D1D1D574800F5D5FE /* ExcurtionApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD25B7631D1D574800F5D5FE /* ExcurtionAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD25B77B1D1D574800F5D5FE /* Build configuration list for PBXNativeTarget "ExcurtionAppTests" */;
+			buildPhases = (
+				FD25B7601D1D574800F5D5FE /* Sources */,
+				FD25B7611D1D574800F5D5FE /* Frameworks */,
+				FD25B7621D1D574800F5D5FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD25B7661D1D574800F5D5FE /* PBXTargetDependency */,
+			);
+			name = ExcurtionAppTests;
+			productName = ExcurtionAppTests;
+			productReference = FD25B7641D1D574800F5D5FE /* ExcurtionAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD25B76E1D1D574800F5D5FE /* ExcurtionAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD25B77E1D1D574800F5D5FE /* Build configuration list for PBXNativeTarget "ExcurtionAppUITests" */;
+			buildPhases = (
+				FD25B76B1D1D574800F5D5FE /* Sources */,
+				FD25B76C1D1D574800F5D5FE /* Frameworks */,
+				FD25B76D1D1D574800F5D5FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD25B7711D1D574800F5D5FE /* PBXTargetDependency */,
+			);
+			name = ExcurtionAppUITests;
+			productName = ExcurtionAppUITests;
+			productReference = FD25B76F1D1D574800F5D5FE /* ExcurtionAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD25B7451D1D574800F5D5FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Shlesberg;
+				TargetAttributes = {
+					FD25B74C1D1D574800F5D5FE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					FD25B7631D1D574800F5D5FE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FD25B74C1D1D574800F5D5FE;
+					};
+					FD25B76E1D1D574800F5D5FE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = FD25B74C1D1D574800F5D5FE;
+					};
+				};
+			};
+			buildConfigurationList = FD25B7481D1D574800F5D5FE /* Build configuration list for PBXProject "ExcurtionApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD25B7441D1D574800F5D5FE;
+			productRefGroup = FD25B74E1D1D574800F5D5FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD25B74C1D1D574800F5D5FE /* ExcurtionApp */,
+				FD25B7631D1D574800F5D5FE /* ExcurtionAppTests */,
+				FD25B76E1D1D574800F5D5FE /* ExcurtionAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD25B74B1D1D574800F5D5FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD25B75E1D1D574800F5D5FE /* LaunchScreen.storyboard in Resources */,
+				FD25B75B1D1D574800F5D5FE /* Assets.xcassets in Resources */,
+				FD25B7561D1D574800F5D5FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD25B7621D1D574800F5D5FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD25B76D1D1D574800F5D5FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD25B7491D1D574800F5D5FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD25B7531D1D574800F5D5FE /* ViewController.swift in Sources */,
+				FD25B7511D1D574800F5D5FE /* AppDelegate.swift in Sources */,
+				FD25B7591D1D574800F5D5FE /* ExcurtionApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD25B7601D1D574800F5D5FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD25B7691D1D574800F5D5FE /* ExcurtionAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD25B76B1D1D574800F5D5FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD25B7741D1D574800F5D5FE /* ExcurtionAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD25B7661D1D574800F5D5FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD25B74C1D1D574800F5D5FE /* ExcurtionApp */;
+			targetProxy = FD25B7651D1D574800F5D5FE /* PBXContainerItemProxy */;
+		};
+		FD25B7711D1D574800F5D5FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD25B74C1D1D574800F5D5FE /* ExcurtionApp */;
+			targetProxy = FD25B7701D1D574800F5D5FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD25B7541D1D574800F5D5FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD25B7551D1D574800F5D5FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD25B75C1D1D574800F5D5FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD25B75D1D1D574800F5D5FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD25B7761D1D574800F5D5FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD25B7771D1D574800F5D5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD25B7791D1D574800F5D5FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ExcurtionApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shles.ExcurtionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD25B77A1D1D574800F5D5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ExcurtionApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shles.ExcurtionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD25B77C1D1D574800F5D5FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ExcurtionAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shles.ExcurtionAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExcurtionApp.app/ExcurtionApp";
+			};
+			name = Debug;
+		};
+		FD25B77D1D1D574800F5D5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ExcurtionAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shles.ExcurtionAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExcurtionApp.app/ExcurtionApp";
+			};
+			name = Release;
+		};
+		FD25B77F1D1D574800F5D5FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ExcurtionAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shles.ExcurtionAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ExcurtionApp;
+			};
+			name = Debug;
+		};
+		FD25B7801D1D574800F5D5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ExcurtionAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shles.ExcurtionAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ExcurtionApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD25B7481D1D574800F5D5FE /* Build configuration list for PBXProject "ExcurtionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD25B7761D1D574800F5D5FE /* Debug */,
+				FD25B7771D1D574800F5D5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD25B7781D1D574800F5D5FE /* Build configuration list for PBXNativeTarget "ExcurtionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD25B7791D1D574800F5D5FE /* Debug */,
+				FD25B77A1D1D574800F5D5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD25B77B1D1D574800F5D5FE /* Build configuration list for PBXNativeTarget "ExcurtionAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD25B77C1D1D574800F5D5FE /* Debug */,
+				FD25B77D1D1D574800F5D5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FD25B77E1D1D574800F5D5FE /* Build configuration list for PBXNativeTarget "ExcurtionAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD25B77F1D1D574800F5D5FE /* Debug */,
+				FD25B7801D1D574800F5D5FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FD25B7571D1D574800F5D5FE /* ExcurtionApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FD25B7581D1D574800F5D5FE /* ExcurtionApp.xcdatamodel */,
+			);
+			currentVersion = FD25B7581D1D574800F5D5FE /* ExcurtionApp.xcdatamodel */;
+			path = ExcurtionApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FD25B7451D1D574800F5D5FE /* Project object */;
+}
